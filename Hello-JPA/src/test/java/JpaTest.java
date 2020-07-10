@@ -21,7 +21,7 @@ public class JpaTest {
         // 4. 开启事务
         et.begin();
         Customer c = new Customer();
-        c.setCustName("乐华娱乐");
+        c.setCustName("哇唧唧哇");
         c.setCustIndustry("娱乐文化");
         // 5. 保存操作
         em.persist(c);
