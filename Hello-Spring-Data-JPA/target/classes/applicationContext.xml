@@ -16,7 +16,7 @@
     <!-- 1. dataSource 配置数据库连接池 -->
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
         <property name="driverClass" value="com.mysql.cj.jdbc.Driver"/>
-        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/jpa_test"/>
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/jpa_test?useSSL=false&amp;serverTimezone=Asia/Shanghai"/>
         <property name="user" value="root"/>
         <property name="password" value="01180405"/>
     </bean>

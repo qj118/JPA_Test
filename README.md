@@ -10,4 +10,10 @@
 
 ### Hello-Spring-Date-JPA
 
-目前存在问题：org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+- 如果出现问题：A ResourcePool could not acquire a resource from its primary factory or source.
+需要在dataSource配置中加上是时区配置`&amp;serverTimezone=Asia/Shanghai`, mysql5.7 + 需要加上该配置。
+- resources/applicationContext.xml Spring 配置文件；
+- domain 实体类包；
+- dao 接口类包；
+具体的查询方法无需提供，只需提供接口方法，其他的由框架自动生成。
+- 测试类中测试方法与被测试的接口同名，以便查找。
