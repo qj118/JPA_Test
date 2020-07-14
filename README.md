@@ -17,3 +17,9 @@
 - dao 接口类包；
 具体的查询方法无需提供，只需提供接口方法，其他的由框架自动生成。
 - 测试类中测试方法与被测试的接口同名，以便查找。
+
+### Specification-Test
+
+对 JpaSpecificationExecutor 接口中的使用及测试。
+1. 定制自己的 Specification;
+2. 以 Specification 对象作为参数，调用接口。
