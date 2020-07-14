@@ -31,6 +31,8 @@
 2. @JoinColumn 配置外键;
 3. “一” 中包含 “多” 的集合属性，“多” 中包含 “一” 的实体属性。
 
+存在一个测试类 ObjectQueryTest，用来测试对象导航查询。
+
 ### MultiTable-Many2Many
 
 多表操作之多对多的相关知识点。
