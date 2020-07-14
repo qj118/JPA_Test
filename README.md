@@ -30,3 +30,10 @@
 1. @OneToMany 配置实体之间的关系；
 2. @JoinColumn 配置外键;
 3. “一” 中包含 “多” 的集合属性，“多” 中包含 “一” 的实体属性。
+
+### MultiTable-Many2Many
+
+多表操作之多对多的相关知识点。
+1. @ManyToMany
+2. @JoinTable 配置中间表
+3. 注意被动方需要放弃外键维护权
