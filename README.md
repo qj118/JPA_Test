@@ -23,3 +23,10 @@
 对 JpaSpecificationExecutor 接口中的使用及测试。
 1. 定制自己的 Specification;
 2. 以 Specification 对象作为参数，调用接口。
+
+### MultiTable-One2Many
+
+多表操作之一对多的相关知识点。
+1. @OneToMany 配置实体之间的关系；
+2. @JoinColumn 配置外键;
+3. “一” 中包含 “多” 的集合属性，“多” 中包含 “一” 的实体属性。
