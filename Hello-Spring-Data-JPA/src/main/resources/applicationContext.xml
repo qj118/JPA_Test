@@ -18,7 +18,7 @@
         <property name="driverClass" value="com.mysql.cj.jdbc.Driver"/>
         <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/jpa_test?useSSL=false&amp;serverTimezone=Asia/Shanghai"/>
         <property name="user" value="root"/>
-        <property name="password" value="01180405"/>
+        <property name="password" value="1234567"/>
     </bean>
     <!-- 2. 配置 entityManagerFactory 对象交给 spring 容器管理-->
     <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
@@ -56,7 +56,7 @@
                       transaction-manager-ref="transactionManager"
                       entity-manager-factory-ref="entityManagerFactory">
     </jpa:repositories>
-    <!-- 5. 配置 txAdvice -->
+    <!-- 5. 配置事务通知 txAdvice -->
     <tx:advice id="txAdvice" transaction-manager="transactionManager">
         <tx:attributes>
             <tx:method name="save*" propagation="REQUIRED"/>
@@ -70,6 +70,7 @@
     </tx:advice>
     <!-- 6. 配置 aop-->
     <aop:config>
+        <!-- 切入点配置 -->
         <aop:pointcut id="pointcut" expression="execution(* org.demon.service.*.*(..))"/>
         <aop:advisor advice-ref="txAdvice" pointcut-ref="pointcut"/>
     </aop:config>

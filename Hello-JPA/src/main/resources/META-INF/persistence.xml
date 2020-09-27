@@ -8,7 +8,7 @@
             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
             <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/jpa_test"/>
             <property name="javax.persistence.jdbc.user" value="root"/>
-            <property name="javax.persistence.jdbc.password" value="01180405"/>
+            <property name="javax.persistence.jdbc.password" value="1234567"/>
 
             <!-- JPA 提供者的可选配置 -->
             <property name="hibernate.show_sql" value="true"/>

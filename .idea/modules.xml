@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Hello-JPA/Hello-JPA.iml" filepath="$PROJECT_DIR$/Hello-JPA/Hello-JPA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hello-Spring-Data-JPA/Hello-Spring-Data-JPA.iml" filepath="$PROJECT_DIR$/Hello-Spring-Data-JPA/Hello-Spring-Data-JPA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JPA_Exercise.iml" filepath="$PROJECT_DIR$/.idea/JPA_Exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MultiTable-Many2Many/MultiTable-Many2Many.iml" filepath="$PROJECT_DIR$/MultiTable-Many2Many/MultiTable-Many2Many.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MultiTable-One2Many/MultiTable-One2Many.iml" filepath="$PROJECT_DIR$/MultiTable-One2Many/MultiTable-One2Many.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Specification-Test/Specification-Test.iml" filepath="$PROJECT_DIR$/Specification-Test/Specification-Test.iml" />
+    </modules>
+  </component>
+</project>
